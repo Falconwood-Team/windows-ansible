@@ -1,0 +1,8 @@
+- 
+    name: Chocolatey install   
+    hosts: bwin
+    become_method: runas
+    
+    tasks:
+      - win_shell: /home/ansible/install-choco.ps1
+        

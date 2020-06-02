@@ -1,0 +1,5 @@
+- 
+    name: Install third-party browsers using chocolatey  
+    hosts: bwin
+    roles:
+         - { role: thirdparty}

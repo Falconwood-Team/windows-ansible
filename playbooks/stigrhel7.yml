@@ -1,0 +1,5 @@
+- 
+    name: rhel7stig    
+    hosts: all
+    roles:
+         - { role: stig_common_r7 }

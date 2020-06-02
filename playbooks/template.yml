@@ -1,0 +1,9 @@
+- hosts: <host>
+  become: true
+#  vars_files:
+#    - /etc/ansible/vars/infrastructure_vars.yml
+#    - /etc/ansible/vars/sudo_pass.yml
+#    - /etc/ansible/vars/protected.yml
+  roles:
+    - stig_common_r7
+    
